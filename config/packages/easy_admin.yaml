@@ -1,0 +1,12 @@
+easy_admin:
+    site_name:
+        'Admin page'
+    entities:
+        Produits:
+            class: App\Entity\Produits
+            edit: 
+                fields:
+                    - { property: 'nom'}
+                    - { property: 'descriptif'}
+                    - { property: 'image'}
+                    

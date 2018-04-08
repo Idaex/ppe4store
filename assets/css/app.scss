@@ -1,0 +1,8 @@
+$main-color:green;
+$white:#fff;
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    background-color: $main-color;
+    color:$white;
+}
